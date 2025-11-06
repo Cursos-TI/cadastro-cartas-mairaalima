@@ -9,12 +9,12 @@ int main() {
 
     int populacao, p_turistico;
     float area, pib;
-	  char estado, codigo[4], nome[50];
+	char estado, codigo[4], nome[50];
 
   // Área para entrada de dados
     //Carta 1
 
-  printf("Vamos cadastrar a carta 1! \n");
+ 	printf("Vamos cadastrar a carta 1! \n");
 	printf("Digite uma letra de A a H representado o estado escolhido: \n");
 	scanf(" %c", &estado);
 
@@ -38,7 +38,7 @@ int main() {
 
   // Área para exibição dos dados da carta 1
 
-  printf("\n Carta 1 \n");
+ 	printf("\n Carta 1 \n");
 	printf("Estado: %c \n", estado);
 	printf("Código da carta: %s \n", codigo);
 	printf("Nome da cidade: %s \n", nome);
@@ -50,7 +50,7 @@ int main() {
 // Área para entrada de dados
   //Carta 2
 
-  printf("\nVamos cadastrar a carta 2! \n");
+ 	printf("\nVamos cadastrar a carta 2! \n");
 	printf("Digite uma letra de A a H representado o estado escolhido: \n");
 	scanf(" %c", &estado);
 
@@ -74,7 +74,7 @@ int main() {
 
 // Área para exibição dos dados da carta 2
 
-  printf("\n Carta 2 \n");
+ 	printf("\n Carta 2 \n");
 	printf("Estado: %c \n", estado);
 	printf("Código da carta: %s \n", codigo);
 	printf("Nome da cidade: %s \n", nome);
